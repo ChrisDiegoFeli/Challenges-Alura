@@ -181,20 +181,33 @@ head, body{
     cursor: pointer;
     transform: scale(1.05);
 }
-  
-marquee{
-    font-size: 30px;
-    font-style: oblique;
 
-}
+@media screen and (max-width:480px){   /*Cuando detecte una pantalla (celular) con resolucion de 480 pintalo de rojo*/
 
-.loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
-    opacity: .8;
+    .logo, #mensaje{
+         position: relative;
+    }
+    
+    #mensaje{
+        margin-bottom: 200px;
+    }
+
+    #encriptar, #desencriptar{
+        position:absolute;
+        margin-top: 1500px;
+    }
+
+    .exclamacion, .frame1{
+        position:absolute;
+        margin-top: 1450px;
+    }
+
+    #resultado{
+        margin-left: 500px;
+    }
+
+
+    #mensajeuno, #mensajedos, #copiar, #muñeco{
+        margin-left: 550px;
+    }
 }
