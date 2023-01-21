@@ -238,7 +238,6 @@ head, body{
 
     #mensajeuno, #mensajedos, #copiar, #muñeco{
         margin-left: 550px;
-        font-size: 30px;
 
     }
 
@@ -247,13 +246,18 @@ head, body{
     } 
 
     #mensajedos{
-        margin-top: 1100PX;
+        margin-top: 1000PX;
+        font-size: 25px;
+    }
+
+    #mensajeuno{
+        font-size: 25px;
+        margin-top: 700PX;
     }
 
 
-
     #muñeco{
-        margin-top: 400PX;
+        margin-top: 250PX;
     }
     #copiar{
         margin-left: 550px;
