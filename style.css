@@ -210,6 +210,8 @@ head, body{
         text-align: center;
         padding-bottom: 80px;
         padding-right: 80px;
+        padding-left: 50px;
+        padding-top: 40px;
     }
 
     #encriptar{
@@ -218,6 +220,10 @@ head, body{
         font-size: 40px;
         text-align: center;
         padding-bottom: 80px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 40px;
+    }
     }
 
     .exclamacion, .frame1{
