@@ -206,35 +206,51 @@ head, body{
     #desencriptar{
         margin-left: 150px;
         padding: 60px;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 80px;
+        padding-right: 80px;
     }
 
     #encriptar{
         margin-left: 950px;
         padding: 60px;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 80px;
     }
 
     .exclamacion, .frame1{
         position:absolute;
         margin-top: 1850px;
         margin-left: 150px;
+
     }
 
     #resultado{
         margin-left: 150px;
         height: 1500px;
         width: 1100px;
+        font-size: 60px;
 
     }
 
 
     #mensajeuno, #mensajedos, #copiar, #muñeco{
         margin-left: 550px;
+        font-size: 30px;
 
     }
 
     #mensajeuno, #mensajedos{
         margin-top: 900PX;
     } 
+
+    #mensajedos{
+        margin-top: 1100PX;
+    }
+
+
 
     #muñeco{
         margin-top: 400PX;
@@ -243,5 +259,9 @@ head, body{
         margin-left: 550px;
         margin-top: 1400px;
         padding: 50px;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 80px;
+
     }
 }
